@@ -1,0 +1,24 @@
+{
+  "name": "cnts",
+  "version": "1.0.0",
+  "description": "Convert persian curency to equal characher",
+  "main": "CNTS.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadijahangiri/CNTS.git"
+  },
+  "keywords": [
+    "jquery",
+    "cnts.js",
+    "html"
+  ],
+  "author": "Hadi Jahangiri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hadijahangiri/CNTS/issues"
+  },
+  "homepage": "https://github.com/hadijahangiri/CNTS#readme"
+}
