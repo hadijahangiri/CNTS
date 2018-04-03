@@ -201,16 +201,8 @@ var convertor = {
         }
 
 
-        var _res = _miliard2 + _miliard + _milion2 + _milion + _hezargan2 + _hezargan + _sadgan + _dahgan + _yekan;
-        console.log(_res);
-        if (_res.indexOf('undefined') != -1)
-            console.log(num);
+        return _miliard2 + _miliard + _milion2 + _milion + _hezargan2 + _hezargan + _sadgan + _dahgan + _yekan;
+        
+     
     }
 }
-
-$(function () {
-    //for (var i = 22222222; i < 22222222; i++) {
-    //    convertor.convert(i);
-    //}
-     convertor.convert(201009800211);
-})
