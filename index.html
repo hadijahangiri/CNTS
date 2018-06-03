@@ -8,13 +8,11 @@
     <h2 id="res">
 
     </h2>
-    <script src="../Scripts/jquery-3.3.1.js"></script>
-    <script src="../CNTS.js"></script>
-    <script>
-        $(document).ready(function () {
-            var res = convertor.convert(201009800211);
-            $('#res').html(res);
-        });
-    </script>
+    <script src="../CNTS.min.js"></script>
+<script>
+        var res = convertor.convert(201009800211);
+        window.document.getElementById('res').innerHTML = res;
+   
+</script>
 </body>
 </html>
