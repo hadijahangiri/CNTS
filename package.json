@@ -1,6 +1,6 @@
 {
   "name": "cnts",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Convert persian curency to equal characher",
   "main": "CNTS.js",
   "scripts": {
