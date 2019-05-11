@@ -7,8 +7,6 @@
 var convertor = (function() {
   var convertor = {
     convert: function(num) {
-      console.log(num);
-      //if (!$.isNumeric(num))
       if (isNaN(num)) return "عدد وارد شده معتبر نمی باشد.";
       num = Math.round(num);
       var yekan = ["یک", "دو", "سه", "چهار", "پنج", "شش", "هفت", "هشت", "نه"];
